@@ -5,10 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./css/index.css">
 </head>
-<body class="bg-red-200">
+<body class="flex flex-col min-h-screen bg-red-200">
+    <div class="flex flex-col items-center justify-center h-80">
+        <h1 class="text-3xl font-bold">Titulo de página</h1>
+        <nav>
+            <ul class="flex *:w-24 *:text-center">
+                <li class="mr-6 ">
+                    <a href="#">Inicio</a>
+                </li>
+                <li class="mr-6">
+                    <a href="#">Nosotros</a>
+                </li>
+                <li class="mr-6">
+                    <a href="#">Servicios</a>
+                </li>
+                <li class="mr-6">
+                    <a href="#">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
     <div></div>
-    <div></div>
-    <div></div>
+    <div class="bg-black h-12 flex items-center justify-center">
+        <p class="text-white">Esto es el pie de pagina</p>
+    </div>
 </body>
 </html>
